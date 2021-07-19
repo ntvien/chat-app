@@ -10,6 +10,10 @@ android {
         viewBinding true
     }
 
+    viewBinding {
+        enabled = true
+    }
+
     defaultConfig {
         applicationId "com.example.chatsapp"
         minSdkVersion 21
